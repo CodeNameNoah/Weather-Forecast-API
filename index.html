@@ -2,13 +2,71 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- links local CSS file to HTML -->
+    <link rel="stylesheet" href="assets/index.css" />
+    <title>Weather Forecast Dashboard</title>
 </head>
 
 <body>
+    <!-- Section for forecast title on page -->
+    <div id="forecastSection" class="container mb-3 mt-3">
+        <div id="weather" class="row">
+            <div id="title" class="col-12 title text-center font-weight-bold">
+                <h1>Weather Forecast Dashboard</h1>
+            </div>
+        </div>
+        <!-- Section for Area Code input-field -->
+        <div class="row">
+            <div id="areaCodeSection" class="col-4 areaCode text-left font-weight-bold">
+                <p>Search Forecast for City:</p>
+                <div class="input-text-field">
+                    <input id="areaCode" type="search" class="form-control rounded" placeholder="Search"
+                        aria-label="Search" aria-describedby="search-addon" />
+                    <button id="searchBtn" type="button" class="SearchBtn btn-outline-primary">
+                        Give Forecast
+                    </button>
+                </div>
+
+                <!-- Section for providing history of areas and cities user searched -->
+                <div id="areaSearchHistory" class="list-group"></div>
+            </div>
+            <div class="col-8 h-50 pr-0 pt-3">
+                <div id="forecastData">
+                    <div id="currentAreaWeather" class="border-light">
+                        <div class="slot">
+                            <div class="slot-body">
+                                <h5 id="cityDate" class="slot-title"></h5>
+                                <p class="slot-text">
+                                    <span>Current Temperature: </span><span id="currentAreaTemperature"></span>
+                                </p>
+                                <p class="slot-text">
+                                    <span>Current Humidity: </span><span id="currentAreaHumidity"></span>
+                                </p>
+                                <p class="slot-text">
+                                    <span>Current Wind Speed: </span><span id="currentAreaWindSpeed"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="fiveDayForecast">
+                        <h3>5 Day Forecast:</h3>
+                        <div>
+                            <div id="fiveDay" class="d-flex justify-content-between"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- links to remote 3rd party jquery libraries and local index.js file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./assets/index.js"></script>
 
 </body>
 
