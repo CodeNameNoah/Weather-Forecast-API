@@ -18,7 +18,7 @@ Overall, this weather forecast application is a great tool for anyone who wants 
 
 ## Take A Look At My Application!
 
-![Work Day Scheduler Application](https://user-images.githubusercontent.com/127361736/230523184-8a438d4e-b54c-4971-b092-6f829532b902.gif)
+![Weather Forecast Dashboard (1)](https://user-images.githubusercontent.com/127361736/231061906-69be0437-0d22-4175-b028-191ecadce0ce.gif)
 
 ## Links
 
