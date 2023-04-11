@@ -73,6 +73,14 @@ Overall, this weather forecast application is a great tool for anyone who wants 
 
 * https://codepen.io/explosion/pen/jMGVqr
 
+- Open Weather API Keys
+
+* https://openweathermap.org/
+
+- Tutorial on JavaScript 'Fetch' Usage
+
+* https://www.youtube.com/watch?v=ubw2hdQIl4E&t=8s
+
 ## License
 
 Copyright (c) Microsoft Corporation. All rights reserved.
