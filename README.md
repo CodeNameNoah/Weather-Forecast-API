@@ -1,20 +1,18 @@
 # Weather-Forecast-API
 
-I am pleased to share with the community my latest application where I built an interactive workday scheduler using HTML, CSS, and JavaScript, powered by jQuery. This scheduler allows users to save events for specific hours of the day and ensures that their inputs are still there when they come back to the scheduler website.
+I recently created a weather forecast application that showcases my proficiency in HTML, CSS, JavaScript, Bootstrap, Jquery, and API Key usages. The application allows users to search for the weather forecast of any area by typing in the area's name or zip code. The application makes use of the OpenWeather API to retrieve accurate and up-to-date weather data. It is designed using Bootstrap to ensure responsiveness and compatibility with different screen sizes. The user interface is intuitive, with a simple search bar and autocomplete functionality to suggest possible search queries. Overall, I'm proud of the application I've created, and it demonstrates my proficiency in these technologies.
 
 ## Description
 
-Users can take advantage of the interactive workday scheduler built using HTML, CSS, and JavaScript, powered by jQuery. This scheduler allows them to save events for specific hours of the day and ensures that their inputs are still there when they come back to the scheduler.
+When you first open the application, you'll see a search bar where you can enter either the name of the area or the zip code that you want to know the weather forecast for. Once you've entered your search query and clicked on the "Search" button, the application will make a request to the OpenWeather API using your API key and retrieve the forecast data for the specified area.
 
-The scheduler has a clean and modern user interface, making it easy for users to input their events quickly and intuitively. Users can simply click on the hour block for which they want to schedule an event, and the scheduler opens up a text box where they can enter their event details.
+The forecast data will be displayed on the screen in a clean and easy-to-read format. You'll see the current temperature, the weather condition (such as cloudy, sunny, or rainy), the high and low temperatures for the day, and the humidity level. Additionally, you'll see a 5-day forecast that shows the expected weather conditions and temperatures for the next five days.
 
-To ensure that their inputs are always saved, the scheduler uses JavaScript to store the events that users input. This way, users don't have to worry about losing any information, even when they navigate away from the page or close their browser. When users return to the scheduler, they can see their saved events and make any necessary changes or updates.
+The application uses Bootstrap to ensure that it's responsive and looks great on any device, whether you're using a desktop computer, tablet, or smartphone. The user interface is simple and intuitive, making it easy to use for anyone.
 
-Users can take advantage of a number of other useful features built into the scheduler. For example, they can color-code events by priority or type, and view events for different days. These features make it easy for users to stay organized and manage their workload effectively.
+One of the key features of this application is its use of jquery. The search bar has autocomplete functionality, which means that as you start typing, it will suggest possible search queries based on what you've entered so far. This saves you time and ensures that you're entering the correct information.
 
-The scheduler is a dynamic and interactive application that responds to user input in real-time, updating the user interface to reflect any changes. This has made the scheduler a valuable tool for users in staying on top of their schedule and achieving their goals.
-
-Overall, users can rely on this workday scheduler to store their events and access them at any time, even if they navigate away from the page or close their browser. This makes it a useful tool for anyone looking to stay organized and manage their workload effectively.
+Overall, this weather forecast application is a great tool for anyone who wants to stay up-to-date on the latest weather conditions for a particular area. Its use of Javascript, HTML, CSS, jquery, Bootstrap, and the OpenWeather API makes it a powerful and reliable tool that you can count on.
 
 ---
 
@@ -24,7 +22,7 @@ Overall, users can rely on this workday scheduler to store their events and acce
 
 ## Links
 
-- Link to live application https://codenamenoah.github.io/Work-Day-Planner/
+- Link to live application https://codenamenoah.github.io/Weather-Forecast-API/
 
 ---
 
@@ -34,7 +32,7 @@ Overall, users can rely on this workday scheduler to store their events and acce
 
 1. Click on the green code button and copy the link for the SSH key.
 2. Once clip-boarded load up a command line interface and change directory to one of your preference
-3. Enter in the command `git clone git@github.com:CodeNameNoah/Work-Day-Planner.git`
+3. Enter in the command `git clone git@github.com:CodeNameNoah/Weather-Forecast-API.git`
 4. Enter your protected SSH password
 5. Enjoy!
 
@@ -48,12 +46,10 @@ Overall, users can rely on this workday scheduler to store their events and acce
 
 ## Usage
 
-1. Click on the link to the live application of the Work Day Scheduler/Planner
-2. Type a name you would like to store as an event in the respective hour slot.
-3. Click the lavender button with the save icon to record your event.
-4. Voila! Your event is now recorded and you can visit this page again to view your events through your busy day!
-
-- Note that the time slots are color coded. Green blocks represent future events. Yellow blocks represent present events. Grey blocks represent past events.
+1. Click on the link to the live application of the Weather-Forecast-API
+2. Type the name or area zip code of a location you would like to obtain weather information on.
+3. Click the 'Give Forecast' button to retrieve your forecast of the area you previously entered into the input field
+4. You will have received information in an appealing UI for you to enjoy!
 
 ## Credits
 
@@ -61,21 +57,21 @@ Overall, users can rely on this workday scheduler to store their events and acce
 
 * https://www.youtube.com/watch?v=3RlpVrYt_qE&ab_channel=AskCloudArchitech
 
-- Guide for While Loops
+- Inspiration for Weather Forecast Application
 
-* https://www.w3schools.com/js/js_loop_while.asp
+* https://www.youtube.com/watch?v=OE7kml0pigw
 
-- Day Planner App Inspiration
+- Tutorial assisting me with coding this application
 
-* https://www.youtube.com/watch?v=h7gZY3_3Dqs
+* https://www.youtube.com/watch?v=QEu8_5bYm-w
 
-- Guide On QuerySelector Method and Usages
+- Link to Google Fonts Library
 
-* https://www.youtube.com/watch?v=3oOKAJTD2F8
+* https://fonts.google.com/specimen/Bebas+Neue?preview.text=Weather%20Forecast%20Dashboard&preview.text_type=custom
 
-- Amazing Guide On Gradient Texts
+- Link to Application I used to help style
 
-* https://www.youtube.com/watch?v=-6Yb9kpSbDk
+* https://codepen.io/explosion/pen/jMGVqr
 
 ## License
 
