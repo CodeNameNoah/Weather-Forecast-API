@@ -1,0 +1,60 @@
+.areaCode {
+    background-color: rgb(200 230 255);
+    font-size: 18px;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    margin-top: 16px;
+    border-radius: 5px
+}
+
+.title {
+    height: 80px;
+    color: white;
+    padding: 15px;
+    font-family: 'Bebas Neue', cursive;
+    background-image: linear-gradient(43deg,
+            #8ad5f0 0%,
+            #b4fff8 46%,
+            #d9d8d8 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.city {
+    cursor: pointer;
+}
+
+.input-text-field {
+    padding-bottom: 15px;
+}
+
+
+.bg-primary {
+    /* Used !important to have higher priority than bootstrap priority styling properties */
+    background-color: rgb(89 169 255) !important;
+}
+
+.slot-body {
+    background-color: rgb(200 230 255);
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-bottom: 1px;
+}
+
+body {
+    background-image: url('./images/Clouds.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+div#fiveDay div {
+    width: 140px;
+    color: #fff;
+    padding: 17px;
+    border-radius: 5px
+}
