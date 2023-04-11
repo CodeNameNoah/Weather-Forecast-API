@@ -2,6 +2,8 @@
 
 I recently created a weather forecast application that showcases my proficiency in HTML, CSS, JavaScript, Bootstrap, Jquery, and API Key usages. The application allows users to search for the weather forecast of any area by typing in the area's name or zip code. The application makes use of the OpenWeather API to retrieve accurate and up-to-date weather data. It is designed using Bootstrap to ensure responsiveness and compatibility with different screen sizes. The user interface is intuitive, with a simple search bar and autocomplete functionality to suggest possible search queries. Overall, I'm proud of the application I've created, and it demonstrates my proficiency in these technologies.
 
+---
+
 ## Description
 
 When you first open the application, you'll see a search bar where you can enter either the name of the area or the zip code that you want to know the weather forecast for. Once you've entered your search query and clicked on the "Search" button, the application will make a request to the OpenWeather API using your API key and retrieve the forecast data for the specified area.
@@ -13,6 +15,12 @@ The application uses Bootstrap to ensure that it's responsive and looks great on
 One of the key features of this application is its use of jquery. The search bar has autocomplete functionality, which means that as you start typing, it will suggest possible search queries based on what you've entered so far. This saves you time and ensures that you're entering the correct information.
 
 Overall, this weather forecast application is a great tool for anyone who wants to stay up-to-date on the latest weather conditions for a particular area. Its use of Javascript, HTML, CSS, jquery, Bootstrap, and the OpenWeather API makes it a powerful and reliable tool that you can count on.
+
+---
+
+## Languages and Technologies Used
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,jquery,bootstrap,git)](https://skillicons.dev)
 
 ---
 
@@ -42,6 +50,8 @@ Overall, this weather forecast application is a great tool for anyone who wants 
 2. In the bottom of the drop-down menu, click Download Zip
 3. Enjoy!
 
+---
+
 ![github](https://user-images.githubusercontent.com/127361736/227422005-d28a9020-e331-4098-976b-df9c1e545bb4.png)
 
 ## Usage
@@ -50,6 +60,8 @@ Overall, this weather forecast application is a great tool for anyone who wants 
 2. Type the name or area zip code of a location you would like to obtain weather information on.
 3. Click the 'Give Forecast' button to retrieve your forecast of the area you previously entered into the input field
 4. You will have received information in an appealing UI for you to enjoy!
+
+---
 
 ## Credits
 
@@ -80,6 +92,8 @@ Overall, this weather forecast application is a great tool for anyone who wants 
 - Tutorial on JavaScript 'Fetch' Usage
 
 * https://www.youtube.com/watch?v=ubw2hdQIl4E&t=8s
+
+---
 
 ## License
 
